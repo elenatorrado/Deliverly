@@ -1,0 +1,7 @@
+Clientes: #idCliente,nombreCliente,emailCliente,telefonoCliente,direccionCliente
+
+Repartidores:#idRepartidor,nombreRepartidor,usuarioRepartidor,passwordRepartidor,diponibilidadRepartidor
+
+Pedidos:#idPedido,idClienteFK,descripcionPedido,direccionEntrega,estadoPedido,codigoEntregaCliente,horariInicioPedido, horarioFinPedido
+
+Asignación:idAsignacion,idPedidoFk,idRepartidorFK,fechaAsignacion
